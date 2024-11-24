@@ -1,0 +1,33 @@
+.header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 20px; 
+    background-color: #f5f5f5; 
+  }
+
+  .header_logo {
+    cursor: pointer;
+  }
+  
+  .header_logo img {
+    height: 10vh; 
+    width: auto;
+  }
+  
+  .header_title {
+    font-size: 2rem; 
+    color: #F2025D;
+    margin: 0; 
+    cursor: pointer;
+    font-family: 'FinkHeavy';
+    margin-right: 5vh;
+  }
+
+  @font-face {
+    font-family: 'FinkHeavy';
+    src: local("FinkHeavy"), url('../../assets/FinkHeavy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

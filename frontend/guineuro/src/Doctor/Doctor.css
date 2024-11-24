@@ -1,0 +1,61 @@
+.doctor-lista-pacientes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh auto;
+    padding: 1vh;
+    border: 1px solid black;
+    width: 50vh;
+}
+
+.doctor-lista-pacientes-persona {
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh 0;
+    padding: 1vh;
+    border: 1px solid black;
+    width: 40vh;
+}
+
+.doctor-lista-pacientes-persona:hover {
+    background-color: pink;
+    color: #000000;
+    cursor: pointer;
+}
+
+.doctor-h {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2vh;
+}
+
+.doctor-saludo {
+    font-size: 1.5rem;
+    margin-left: 10vh;
+}
+
+.doctor-div-botones-admin {
+    display: flex;
+    justify-content: center;
+
+}
+
+.doctor-botones-admin {
+    background-color: #FFCBDB;
+  color: #000000;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: none;
+  border-radius: 3vh;
+  padding: 5vh 10vh;
+  margin: 3vh;
+  cursor: pointer;
+  width: 40vh;
+}
+
+.doctor-botones-admin:hover {
+    background-color: pink;
+    color: #000000;
+}

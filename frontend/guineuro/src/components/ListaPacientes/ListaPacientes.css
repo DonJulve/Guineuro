@@ -1,0 +1,38 @@
+.doctor-lista-pacientes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.doctor-lista-pacientes-persona {
+    display: flex;
+    font-size: 1.5em;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    width: 40vh;
+    justify-content: flex-start;
+}
+
+
+
+.doctor-lista-pacientes-persona-nombre {
+    
+}
+
+.patient-photo {
+    width: 5vh; 
+    height: 5vh; 
+    margin-right: 10px; 
+    border-radius: 50%; /* Hace la imagen circular */
+    border: 2px solid #ddd;
+}
+
+.doctor-lista-sin-pacientes {
+    color: #666;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 10vh;
+}

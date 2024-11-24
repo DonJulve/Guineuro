@@ -1,0 +1,31 @@
+.cambiar-div-inputs {
+    display: flex;
+    align-items: center;
+}
+
+.cambiar-paciente {
+
+}
+
+.cambiar-nuevo-doctor {
+
+}
+
+.cambiar-guardar {
+    background-color: #FFCBDB;
+    color: #000000;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 3vh;
+    padding: 5vh 10vh;
+    margin: 3vh;
+    cursor: pointer;
+    width: 40vh;
+}
+
+.cambiar-guardar:hover {
+    background-color: pink;
+    color: #000000;
+}

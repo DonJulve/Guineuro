@@ -1,0 +1,92 @@
+.doctor-informacion-paciente {
+    margin-left: 10vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.doctor-graficas {
+    width: 100vh;
+    grid-column: 1 / -1;
+}
+
+.doctor-div.informacion {
+    display: flex;
+}
+
+.doctor-div-botones {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50vh;
+    margin-right: 10vh;
+}
+
+.doctor-botones {
+    margin-left: 10vh;
+    margin-bottom: 5vh;
+    background-color: #FFCBDB;
+    color: #000000;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 3vh;
+    padding: 5vh 10vh;
+    margin: 3vh;
+    cursor: pointer;
+    width: 40vh;
+}
+
+.doctor-botones:hover {
+    background-color: pink;
+    color: #000000;
+}
+
+.informacionPaciente-generar-button {
+    background-color: #FFCBDB;
+  color: #000000;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 3vh;
+  padding: 1.5vh 3vh;
+  margin: 3vh;
+  cursor: pointer;
+  width: 30vh;
+}
+
+.informacionPaciente-generar-button:hover {
+    background-color: pink;
+    color: #000000;
+}
+
+.wrapper {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .typing-demo3 {
+    max-width: 100 px;
+    width: 345;
+    animation: typing 2s steps(345), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+  }
+
+
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }

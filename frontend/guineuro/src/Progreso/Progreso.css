@@ -1,0 +1,51 @@
+.proceso-grafico {
+    max-width: 50vh; /* Define un ancho máximo */
+    height: 300px; /* Define una altura */
+    margin-left: 30vh  /* Centra el gráfico horizontalmente */
+  }
+
+  .wrapper {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .typing-demo1 {
+    width: 650; /*650?*/
+    animation: typing 20s steps(650), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.progreso-generar-button {
+  background-color: #FFCBDB;
+  color: #000000;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 3vh;
+  padding: 1.5vh 3vh;
+  margin: 3vh;
+  cursor: pointer;
+  width: 30vh;
+}
+
+.progreso-generar-button:hover {
+  background-color: pink;
+    color: #000000;
+}
+

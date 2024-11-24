@@ -1,0 +1,78 @@
+.test-container {
+    width: 80%;
+    max-width: 60vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.test-go-back {
+    margin-top: 5vh;
+    cursor: pointer;
+}
+
+.test-titulo {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.test-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.test-pregunta {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.test-pregunta-pregunta {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.test-respuesta {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #555;
+    cursor: pointer;
+}
+
+.test-respuesta input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #F2025D; /* Cambia el color de la opción seleccionada */
+}
+
+.test-submit-button {
+    padding: 12px 20px;
+    background-color: #F2025D;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.test-submit-button:hover {
+    background-color: pink;
+}
+
+.test-submit-button:active {
+    background-color: #e712ca;
+}
+
+.test-submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

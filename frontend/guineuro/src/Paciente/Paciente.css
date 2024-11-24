@@ -1,0 +1,98 @@
+.paciente-todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.paciente-photo {
+    width: 10vh;
+    height: 10vh;
+    margin-bottom: -7vh;
+}
+
+.paciente-nombre {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 20vh;
+}
+
+.paciente-home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paciente-home-botones {
+    background-color: #FFCBDB;
+  color: #000000;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: none;
+  border-radius: 3vh;
+  padding: 5vh 10vh;
+  margin: 3vh;
+  cursor: pointer;
+  width: 40vh;
+}
+
+.paciente-home-botones:hover {
+    background-color: pink;
+    color: #000000;
+}
+
+.paciente-home-boton-del-panico {
+    background-color: rgb(52, 223, 232);
+    color: #000000;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 3vh;
+    padding: 5vh 10vh;
+    margin: 3vh;
+    cursor: pointer;
+    width: 40vh;
+}
+
+.paciente-home-boton-del-panico:hover {
+    background-color: rgb(6, 137, 160);
+    color: #000000;
+}
+
+.paciente-telefono-emergencia {
+    font-size: 1.5em;
+    margin-left: 5vh;
+}
+
+.paciente-mi-telefono {
+    font-size: 1.5em;
+    margin-left: 5vh;
+}
+
+.paciente-datos {
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin: 10px 0;
+    width: 70vh;
+    align-items: center;
+}
+
+.paciente-chatbot {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 150vh;
+}
+
+.paciente-chatbot-boton {
+    
+}
+
+.paciente-chatbot-respuesta {
+    border: 2px solid #000000;
+    border-radius: 3px;
+    padding: 7px;
+}

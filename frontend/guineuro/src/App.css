@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  margin-top: 5vh;
+  margin-bottom: -3vh;
+  height: 25vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-name {
+  font-size: 2.5em;
+  font-family: Ratfink;
+  margin-top: 5vh;
+  font-weight: bold;
+  color: #F2025D;
+  font-family: 'FinkHeavy';
+}
+
+.App-choose-user {
+  text-align: center;
+  margin: auto;
+  flex-direction: column;
+  width: 60vh;
+}
+
+.App-button-choosing {
+  background-color: #FFCBDB;
+  color: #000000;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: none;
+  border-radius: 3vh;
+  padding: 5vh 10vh;
+  margin: 3vh;
+  cursor: pointer;
+  width: 40vh;
+}
+
+.App-button-choosing:hover {
+  background-color: pink;
+  color: #000000;
+}
+
+@font-face {
+  font-family: 'FinkHeavy';
+  src: local("FinkHeavy"), url('./assets/FinkHeavy.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App-button-choosing-go-back {
+  background-color: #FFCBDB;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: none;
+  border-radius: 2vh;
+  padding: 2vh 4vh;
+  cursor: pointer;
+  width: 2vh;
+}
+
+.App-button-choosing-go-back:hover {
+  background-color: pink;
+  color: #000000;
+}
+
+.App-login-doctor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh; 
+}
+
+.App-login-paciente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh; 
+}
+
+.App-input-username-doctor {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: none;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 3vh;
+  padding: 5vh 10vh;
+  cursor: pointer;
+  height: 2vh;
+  width: 20vh;
+}
+
+.App-input-username-doctor:hover {
+  background-color: pink;
+  color: #000000;
+}
+
+.App-input-password-doctor {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: none;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 3vh;
+  padding: 5vh 10vh;
+  cursor: pointer;
+  height: 2vh;
+  width: 20vh;
+}
+
+.App-input-password-doctor:hover {
+  background-color: pink;
+  color: #000000;
+}
+
+.App-input-username-paciente {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: none;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 3vh;
+  padding: 5vh 10vh;
+  cursor: pointer;
+  height: 2vh;
+  width: 20vh;
+} 
+
+.App-input-username-paciente:hover {
+  background-color: pink;
+  color: #000000;
+}
+
+.App-input-password-paciente {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: none;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 3vh;
+  padding: 5vh 10vh;
+  cursor: pointer;
+  height: 2vh;
+  width: 20vh;
+}
+
+.App-input-password-paciente:hover {
+  background-color: pink;
+  color: #000000;
+}
+
+.App-button-enter {
+  background-color: #FFCBDB;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 3vh;
+  padding: 5vh 10vh;
+  cursor: pointer;
+  height: 2vh;
+  width: 40vh;
+}
+
+.App-button-enter:hover {
+  background-color: pink;
+  color: #000000;
+}
+
+.error-message {
+  color: red;
+}
