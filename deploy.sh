@@ -50,7 +50,7 @@ CHAT_PID=$!
 
 # Wait a few seconds to allow the backend to start
 echo "⏳ Waiting for the chat to start on port $CHAT_PORT..."
-sleep 10
+sleep 20
 
 # Check if the backend is running
 if lsof -i:$CHAT_PORT > /dev/null; then
