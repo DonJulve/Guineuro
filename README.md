@@ -31,8 +31,14 @@ This project is a application designed to treat and monitor patients with mental
 - **Backend** Java + SpringBoot.
 - **Guineuro AI** Kotlin + SpringBoot.
   
+## How to run the App (Automatically)
 
-## How to run the App
+```bash
+cd <route_to_project>
+./deploy.sh
+```
+
+## How to run the App (manually)
 
 ### Frontend
 
@@ -55,4 +61,11 @@ cd <route_to_project>/backend
 cd <route_to_project>/guineuro-chat
 ./gradlew bootRun
 
+```
+
+## How to clean the project deployment
+
+```bash
+cd <route_to_project>
+./cleanup.sh
 ```
