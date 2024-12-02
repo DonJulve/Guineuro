@@ -1,15 +1,58 @@
-## Guineuro
+## Boheringer Ingelheim Hackaton
 
-En este repositorio encontrarás el proyecto presentado en la BOEHRINGER INGELHEIM Hackathon de 2024.
+This repository contains the repository of the project presented by the team "equipo amistad" in the Boheringer Ingelheim 2024.
 
-## Contenido
+![https://www.boehringer-ingelheim.com/sites/default/files/2024-04/Boehringer_Ingelheim_Dark-Green.png](https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Boehringer_Ingelheim_Logo_RGB_Accent_Green.svg/2560px-Boehringer_Ingelheim_Logo_RGB_Accent_Green.svg.png)
 
-- **El proyecto consiste en un pseudo duolingo para tratar y supervisar paciente con algún trastorno mental.**
-- **El paciente podrá hacer un test diario que la IA adaptará en base a los resultados del resto de días para poder mejorar su estado de ánimo y reducir los síntomas del trastorno mental. Además dispondrá de un chat-bot capaz de conversar con el como manera de mejorar su estado de ánimo. Finalmente dispondrá de un botón de pánico que enviará un aviso a un bot de telegram.**
-- **El doctor podrá ver todos los pacientes a su cargo, delegarlos a otro doctor o eliminarlos, ver la información de ese paciente y también los resultados iniciales del diagnóstico, así como los resultados de los tests diarios y una gráfica donde se vea una progresión de los resultados. Todos estos resultados además serán analizados por la IA y se le enviará un informe a los doctores.**
+## Content of the Project
+This project is a application designed to treat and monitor patients with mental disorders. The platform provides tools for both patients and doctors.
 
-## Tecnologías empleadas
+## Some screenshots of the final product
 
-- **React**: Para el front.
-- **Spring**: Para el back.
-- **Kotlin**: Para el chat-bot.
+<img src="Images/Screenshot_1.png" width="500">
+<img src="Images/Screenshot_4.png" width="700">
+<img src="Images/Screenshot_3.png" width="500">
+
+
+### Patients
+
+- The patients can take a daily test, which will be adapted by AI based on the results from previous days. The goal is to improve the patient's mood and reduce the symptoms of the mental disorder.
+- The patients will also have access to a chat-bot that can converse with them to help improve their emotional well-being.
+- A panic button is available, which sends an alert to a Telegram bot in case of emergency.
+### Doctors:
+
+- Doctors can view all the patients under their care, reassign them to another doctor, or remove them from the system.
+- They will have access to the patient's complete information, including initial diagnostic results, daily test results, and a graph showing the progression of these results.
+- All data will be analyzed by the AI, which will generate reports that are sent to the doctors.
+
+## Technologies Used
+
+- **Frontend** React.
+- **Backend** Java + SpringBoot.
+- **Guineuro AI** Kotlin + SpringBoot.
+  
+
+## How to run the App
+
+### Frontend
+
+```bash
+cd <route_to_project>/frontend
+npm install
+npm start
+```
+
+### Backend
+
+```bash
+cd <route_to_project>/backend
+./gradlew bootRun
+
+```
+
+### Guineuro AI
+```bash
+cd <route_to_project>/guineuro-chat
+./gradlew bootRun
+
+```
