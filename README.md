@@ -38,7 +38,7 @@ cd <route_to_project>
 ./deploy.sh
 ```
 
-## How to run the App (manually)
+## How to run the App (Manually)
 
 ### Frontend
 
