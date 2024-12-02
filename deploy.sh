@@ -61,7 +61,7 @@ else
     exit 1
 fi
 
-# 3. Start the Frontend (React)
+# 4. Start the Frontend (React)
 echo "🔧 Starting frontend (React)..."
 cd ..
 cd $FRONTEND_DIR || exit
